@@ -20,10 +20,10 @@ const scrollRevealOption = {
   duration: 1000,
 };
 
-/////////////////// SCROLL ANIMATION
-
-// Header container
-ScrollReveal().reveal('.header__container p', { ...scrollRevealOption });
+// header container
+ScrollReveal().reveal('.header__container p', {
+  ...scrollRevealOption,
+});
 
 ScrollReveal().reveal('.header__container h1', {
   ...scrollRevealOption,
