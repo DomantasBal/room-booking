@@ -134,7 +134,7 @@ nav {
   flex-direction: column;
   gap: 2rem;
   background-color: rgba(188, 28, 92, 0.9);
-  /* transform: translateY(-100%) */
+  transform: translateY(-100%);
   transition: 0.5s;
   z-index: -1;
 }
