@@ -184,6 +184,43 @@ nav {
   color: var(--primary-color);
 }
 
+.booking__container {
+  /* NS */
+  padding-block: 0;
+}
+
+.booking__form {
+  padding: 2rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: var(--white);
+  border-radius: 10px;
+  transform: translateY(-50%);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.input__group {
+  /* NS */
+  flex: 1 1 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.input__group span {
+  font-size: 1.75rem;
+  color: var(--primary-color);
+}
+
+.input__group label {
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
 @media (width > 768px) {
   nav {
     padding: 2rem 1rem;
